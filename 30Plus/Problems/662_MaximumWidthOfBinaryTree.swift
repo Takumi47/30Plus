@@ -29,8 +29,17 @@ class Solution662 {
         let c1 = TreeNode(1, c2, c3)
         let t3 = (root: c1, output: 2)
         
-        [t1, t2, t3].forEach { t in
-            let result = Xoo662().widthOfBinaryTree(t.0)
+        let d7 = TreeNode(7)
+        let d6 = TreeNode(6)
+        let d5 = TreeNode(9, d7, nil)
+        let d4 = TreeNode(5, d6, nil)
+        let d3 = TreeNode(2, nil, d5)
+        let d2 = TreeNode(3, d4, nil)
+        let d1 = TreeNode(1, d2, d3)
+        let t4 = (root: d1, output: 7)
+        
+        [t1, t2, t3, t4].forEach { t in
+            let result = Xoo662_1().widthOfBinaryTree(t.0)
             print("\(result)")
             if result != t.1 { print("❌❌❌❌❌\n") }
         }
@@ -50,5 +59,33 @@ class Xoo662 {
         if level == ids.count { ids.append(id) }
         let newId = id - ids[level]
         return max(newId + 1, dfs(root.left, level + 1, 2 * newId, &ids), dfs(root.right, level + 1, 2 * newId + 1, &ids))
+    }
+}
+
+// MARK: - BFS
+
+class Xoo662_1 {
+    func widthOfBinaryTree(_ root: TreeNode?) -> Int {
+        guard let root = root else { return 0 }
+        var q = Queue<(TreeNode, Int)>()
+        q.enqueue((root, 0))
+        
+        var maxWidth = 0
+        var level = 0
+        var ids: [Int] = [] // Save the min. id in each level
+        while !q.isEmpty {
+            for _ in 0..<q.count {
+                guard let (curr, id) = q.dequeue() else { continue }
+                if ids.count == level { ids.append(id) }
+                
+                let newId = id - ids[level]
+                maxWidth = max(maxWidth, newId + 1)
+                
+                if let left = curr.left { q.enqueue((left, 2 * newId + 1)) }
+                if let right = curr.right { q.enqueue((right, 2 * newId + 2)) }
+            }
+            level += 1
+        }
+        return maxWidth
     }
 }
