@@ -15,6 +15,8 @@
 		C03567AB29B6F7BE00C16DFA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03567AA29B6F7BE00C16DFA /* Queue.swift */; };
 		C03567AD29B6F81700C16DFA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03567AC29B6F81700C16DFA /* Stack.swift */; };
 		C03567AF29B6F87800C16DFA /* 957_PrisonCellsAfterNDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03567AE29B6F87800C16DFA /* 957_PrisonCellsAfterNDays.swift */; };
+		C0C5EDD329E1A68500208705 /* 430_FlattenAMultilevelDoublyLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5EDD229E1A68500208705 /* 430_FlattenAMultilevelDoublyLinkedList.swift */; };
+		C0C5EDD529E1A83600208705 /* 78_Subsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5EDD429E1A83600208705 /* 78_Subsets.swift */; };
 		C0F5315229C5DBD600853B8C /* 264_UglyNumberII.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5315129C5DBD600853B8C /* 264_UglyNumberII.swift */; };
 		C0F5315429C5DBEA00853B8C /* 461_HammingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5315329C5DBEA00853B8C /* 461_HammingDistance.swift */; };
 		C0F5315629C5DBFD00853B8C /* 66_PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F5315529C5DBFD00853B8C /* 66_PlusOne.swift */; };
@@ -45,6 +47,8 @@
 		C03567AA29B6F7BE00C16DFA /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		C03567AC29B6F81700C16DFA /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		C03567AE29B6F87800C16DFA /* 957_PrisonCellsAfterNDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 957_PrisonCellsAfterNDays.swift; sourceTree = "<group>"; };
+		C0C5EDD229E1A68500208705 /* 430_FlattenAMultilevelDoublyLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 430_FlattenAMultilevelDoublyLinkedList.swift; sourceTree = "<group>"; };
+		C0C5EDD429E1A83600208705 /* 78_Subsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 78_Subsets.swift; sourceTree = "<group>"; };
 		C0F5315129C5DBD600853B8C /* 264_UglyNumberII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 264_UglyNumberII.swift; sourceTree = "<group>"; };
 		C0F5315329C5DBEA00853B8C /* 461_HammingDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 461_HammingDistance.swift; sourceTree = "<group>"; };
 		C0F5315529C5DBFD00853B8C /* 66_PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 66_PlusOne.swift; sourceTree = "<group>"; };
@@ -104,8 +108,10 @@
 			children = (
 				C0F5316F29C8C87E00853B8C /* 15_3Sum.swift */,
 				C0F5315529C5DBFD00853B8C /* 66_PlusOne.swift */,
+				C0C5EDD429E1A83600208705 /* 78_Subsets.swift */,
 				C03567A529B6F6F400C16DFA /* 107_BinaryTreeLevelOrderTraversalII.swift */,
 				C0F5315129C5DBD600853B8C /* 264_UglyNumberII.swift */,
+				C0C5EDD229E1A68500208705 /* 430_FlattenAMultilevelDoublyLinkedList.swift */,
 				C03567A329B6F63F00C16DFA /* 441_ArrangingCoins.swift */,
 				C0F5315329C5DBEA00853B8C /* 461_HammingDistance.swift */,
 				C0F5315729C5DC1700853B8C /* 463_IslandPerimeter.swift */,
@@ -185,9 +191,11 @@
 			files = (
 				C03567A129B6F5EF00C16DFA /* Example.swift in Sources */,
 				C03567AB29B6F7BE00C16DFA /* Queue.swift in Sources */,
+				C0C5EDD529E1A83600208705 /* 78_Subsets.swift in Sources */,
 				C0F5317029C8C87E00853B8C /* 15_3Sum.swift in Sources */,
 				C0F5315429C5DBEA00853B8C /* 461_HammingDistance.swift in Sources */,
 				C0F5315229C5DBD600853B8C /* 264_UglyNumberII.swift in Sources */,
+				C0C5EDD329E1A68500208705 /* 430_FlattenAMultilevelDoublyLinkedList.swift in Sources */,
 				C0F5315829C5DC1700853B8C /* 463_IslandPerimeter.swift in Sources */,
 				C0F5315629C5DBFD00853B8C /* 66_PlusOne.swift in Sources */,
 				C03567AD29B6F81700C16DFA /* Stack.swift in Sources */,
