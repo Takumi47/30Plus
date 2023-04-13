@@ -15,21 +15,29 @@ import Foundation
 //    Solution66.runTest()
 //}
 
-Example.of(.medium, "78. Subsets") {
-    Solution78.runTest()
+//Example.of(.medium, "78. Subsets") {
+//    Solution78.runTest()
+//}
+
+Example.of(.easy, "100. Same Tree") {
+    Solution100.runTest()
 }
 
 //Example.of(.medium, "107. Binary Tree Level Order Traversal II") {
 //    Solution107.runTest()
 //}
 
+Example.of(.easy, "190. Reverse Bits") {
+    Solution190.runTest()
+}
+
 //Example.of(.medium, "264. Ugly Number II") {
 //    Solution264.runTest()
 //}
 
-Example.of(.medium, "430. Flatten a Multilevel Doubly Linked List") {
-    Solution430.runTest()
-}
+//Example.of(.medium, "430. Flatten a Multilevel Doubly Linked List") {
+//    Solution430.runTest()
+//}
 
 //Example.of(.easy, "441. Arranging Coins") {
 //    Solution441.runTest()
@@ -50,3 +58,7 @@ Example.of(.medium, "430. Flatten a Multilevel Doubly Linked List") {
 //Example.of(.medium, "957. Prison Cells After N Days") {
 //    Solution957.runTest()
 //}
+
+Example.of(.medium, "1344. Angle Between Hands of a Clock") {
+    Solution1344.runTest()
+}
