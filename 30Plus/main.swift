@@ -11,6 +11,10 @@ import Foundation
 //    Solution15.runTest()
 //}
 
+Example.of(.medium, "50. Pow(x, n)") {
+    Solution50.runTest()
+}
+
 //Example.of(.easy, "66. Plus One") {
 //    Solution66.runTest()
 //}
@@ -19,17 +23,21 @@ import Foundation
 //    Solution78.runTest()
 //}
 
-Example.of(.easy, "100. Same Tree") {
-    Solution100.runTest()
-}
+//Example.of(.easy, "100. Same Tree") {
+//    Solution100.runTest()
+//}
 
 //Example.of(.medium, "107. Binary Tree Level Order Traversal II") {
 //    Solution107.runTest()
 //}
 
-Example.of(.easy, "190. Reverse Bits") {
-    Solution190.runTest()
+Example.of(.medium, "151. Reverse Words in a String") {
+    Solution151.runTest()
 }
+
+//Example.of(.easy, "190. Reverse Bits") {
+//    Solution190.runTest()
+//}
 
 //Example.of(.medium, "264. Ugly Number II") {
 //    Solution264.runTest()
@@ -59,6 +67,6 @@ Example.of(.easy, "190. Reverse Bits") {
 //    Solution957.runTest()
 //}
 
-Example.of(.medium, "1344. Angle Between Hands of a Clock") {
-    Solution1344.runTest()
-}
+//Example.of(.medium, "1344. Angle Between Hands of a Clock") {
+//    Solution1344.runTest()
+//}
